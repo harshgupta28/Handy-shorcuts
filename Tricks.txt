@@ -1,0 +1,24 @@
+my sql password is 2802 
+server tab -> start
+--------------------------------------------------------------------
+tomcat username harshgupta28 and password rootootott
+--------------------------------------------------------------------
+netstat -a -b  	for searching active port
+---------------------------------------------------------------------
+ipconfig /all 		for all adapters info
+--------------------------------------------------------------------
+win +shift +s for snip
+win + + for magnify
+----------------------------------------------------------------------
+Hi !
+I am a third year computer science undergraduate at GL Bajaj Institute of Technology and Management, Greater Noida. I am interested in development and have worked with Advance Java ,MySQL and Spring framework and like to work with open source.
+
+Besides this i am a competitive programmer and loves to participate in contests , challenges and hackathons.
+
+PROFILE LINKS
+• Hackerrank Profile - hackerrank.com/harshgupta28
+• Codechef Profile - codechef.com/users/harshgupta28
+• Github Profile - github.com/harshgupta28 
+• Resume - https://drive.google.com/file/d/1oXxbVxNLo5RDj5UuVoNAPASQUoy1isma/view?usp=sharing
+
+0C96E6A47F7D
