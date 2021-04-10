@@ -1,0 +1,64 @@
+Change Windows MAC addresses
+
+Easy Method: Step 1
+• Right click on Windows Start button
+• Click Device Manager
+• Click Network adapters
+• Right click the Network Adapter you want to change
+• Click Properties
+• Select the Advanced Tab
+• Click Locally Administered Address
+• Specify the new MAC address
+• Click OK
+• If the MAC address change fails try setting the second character to 2 or 6 or A or E
+
+Verification 
+
+• Use a command prompt command to verify the MAC address change
+• Open a command prompt
+• Use the getmac command to verify that the MAC address has changed
+
+Verification Option 2
+
+• Use the GUI to verify the MAC address change Verification 
+• Open Control Panel
+• Select Network and Internet
+• Select Network and Sharing Center
+• Click Change adapter settings
+• Double Click Network Card you changed
+• Click Details
+• Verify new MAC address
+
+Method 2
+
+• This is the hard method.
+• Uses the Windows Registry
+• Be careful!
+• Open a command prompt
+• Use the getmac command to find the MAC address and Transport Name
+• Open the Registry Editor
+• Go to this key:
+• HKEY_LOCAL_MACHINE/SYSTEM/ControlSet001/Control/Class/{4D36E972-E325-11CE-BFC1-08002BE10318}
+• Multiple folders are displayed:
+• 0000, 0001, 0002 etc.
+• Search for your first portion of your NIC Identifier from the getmac command:
+• Example: 79361F3E
+• Verify that the NetCfgInstanceId is the same as the value shown in the getmac command
+• Right click and create a string value with the name NetworkAddress
+• Specify your MAC address
+• If the MAC address change fails try setting the second character to 2 or 6 or A or E
+• Check if the changes work
+• Disable and then re-enable the network card or reboot the computer
+• Use a command prompt command to verify the MAC address change
+
+Verification Option 1
+• Open a command prompt
+• Use the getmac command to verify that the MAC address has changed
+• Use the GUI to verify the MAC address change
+• Open Control Panel
+• Select Network and Internet
+• Select Network and Sharing Center
+• Click Change adapter settings
+• Double Click Network Card you changed
+• Click Details
+• Verify new MAC address
